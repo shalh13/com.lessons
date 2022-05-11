@@ -34,7 +34,7 @@ public class Main {
         */
 
         List<String> strings = new ArrayList<>();  // элементы хранятся в порядке добавления
-        strings.add("два");
+        strings.add("masterBranch");
         strings.add("один");
         strings.add("три");
 
