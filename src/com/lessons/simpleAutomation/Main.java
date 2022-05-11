@@ -34,7 +34,7 @@ public class Main {
         */
 
         List<String> strings = new ArrayList<>();  // элементы хранятся в порядке добавления
-        strings.add("два");
+        strings.add("testbranch");
         strings.add("один");
         strings.add("три");
 
@@ -46,6 +46,7 @@ public class Main {
         digesMap.put("три", 3);
 
         strings.forEach(str -> System.out.println(digesMap.get(str)));
+        String unusedVar;
     }
 
 }
